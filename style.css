@@ -1,45 +1,71 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
-body {
-  display: flex;
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body  {
+    font-family: 'Poppins', sans-serif;
+}
+.container li {
+    list-style: none;
+}
+.button> li a {
+    text-decoration: none;
+    color: black;
+}
+.top-title{
+    font-weight: 800;
+    font-size: 64px;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-grid-row-gap: 10px;
-  list-style-type: none;
+.image1 {
+    position: relative;
+    top: 10px;
+height: 183px;
+width: 183px;
 }
-ul li {
-  padding: 6px 0;
+.image1 {
+    width: 146px;
+    height: 74px;
+
 }
-ul li a {
-  position: relative;
-  display: block;
-  text-decoration: none;
-  font-family: "Lato";
-  font-size: 2rem;;
-  color: #000000;
-  text-transform: uppercase;
-  padding: 4px 0;
-  transition: 0.5s;
+.top-con {
+    margin-top: 100px;
 }
-ul li a::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 3px;
-  top: 100%;
-  left: 0;
-  background: #ff7000;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
+.company {
+    background-color: #d5f3ff;
+    color: rgb(17, 14, 14);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 80px;
 }
-ul li a:hover {
-  color: #95a5a6;
+.see-how {
+    text-decoration: none;
+    color: #0085e4;
 }
-ul li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+
+.covers {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.cover {
+    height: 635PX;
+    background-color: #d5f3ff;
+}
+
+
+/* image slider style  */
+
+.ccover {
+    height: 480px;
+    background-color: #d5f3ff;
+}
+.list li  {
+    list-style: none;
+    color: white;
+}
+.ul >h6 {
+    color: #d5f3ff;
+}
+.llist {
+    margin-right: 200px;
 }
